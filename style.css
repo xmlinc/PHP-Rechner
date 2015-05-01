@@ -6,6 +6,7 @@ body {
 	font-size:14px;
 	padding:0px;
 }
+
 #wrapper {
 	position:absolute;
 	width:800px;
@@ -17,12 +18,14 @@ body {
 	margin-top:-250px;
 	top:49%;
 }
+
 form {
 	width:800px;
 	height:500px;
 	margin:0px;
 	font-size:22px;
 }
+
 #fieldset {
 	width:380px;
 	padding:10px;
@@ -31,18 +34,25 @@ form {
 	background:#dadada;
 	margin:0px;
 }
+
 #history {
-	width:379px;
+	width:359px;
 	border-left:1px solid #ccc;
-	padding:10px;
+	padding:20px;
 	float:right;
-	height:480px;
+	height:460px;
 	background:#fff;
 	margin:0px;
 }
+
+label {
+	font-size:18px;
+}
+
 input {
 	font-size:42px;
 }
+
 input#button {
 	width:86px;
 	margin:3px 2px;
@@ -50,13 +60,16 @@ input#button {
 	font-size:28px;
 	border:1px solid #777;
 }
+
 #output{
 	width:96%;
 	margin:1%;
 	padding:1%;
 	text-align:right;
 }
-#cancel,#sum {
+
+#cancel,
+#sum {
 	width:373px;
 	clear:both;
 	margin:1%;
@@ -64,14 +77,19 @@ input#button {
 	border:1px solid #777;
 	height:50px;
 }
-#cancel:hover,input#button:hover,#sum:hover {
+
+#cancel:hover,
+input#button:hover,
+#sum:hover {
 	background:#ccc;
 	cursor:pointer;
 }
+
 #out {
 	width:98%;
 	border:none;
 	padding:0px;
 	margin:0px;
-	font-size:14px;
+	line-height:1.3em;
+	font-size:34px;
 }
