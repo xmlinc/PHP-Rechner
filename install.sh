@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 
+# Get clone from GitHub
 git clone https://github.com/xmlinc/PHP-Rechner.git
-mv -v PHP-Rechner/* ./
-#cd PHP-Rechner
-rm -rfv .git .gitignore install.sh PHP-Rechner
-#mv ./* ../ && cd ../
-#rm -rfv ./PHP-Rechner
+# Rename the Repository
+mv -v PHP-Rechner rechner
+# Delete unnecessary files
+rm -rfv rechner/.git rechner/.gitignore rechner/install.sh
